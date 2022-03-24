@@ -8,7 +8,10 @@ pipeline {
             }
         },
             stage('Second stage'){
-                echo 'This is second stage'
-            }
+                steps{
+                    
+                    echo 'This is second stage'
+                }
+               }
     }
 }
